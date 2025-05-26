@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cit-manual/static/css/main.e438b063.chunk.css",
+    "main.js": "/cit-manual/static/js/main.5301ca0c.chunk.js",
+    "main.js.map": "/cit-manual/static/js/main.5301ca0c.chunk.js.map",
+    "runtime~main.js": "/cit-manual/static/js/runtime~main.6678e806.js",
+    "runtime~main.js.map": "/cit-manual/static/js/runtime~main.6678e806.js.map",
+    "static/js/2.c7821bdd.chunk.js": "/cit-manual/static/js/2.c7821bdd.chunk.js",
+    "static/js/2.c7821bdd.chunk.js.map": "/cit-manual/static/js/2.c7821bdd.chunk.js.map",
+    "static/js/3.a29efab2.chunk.js": "/cit-manual/static/js/3.a29efab2.chunk.js",
+    "static/js/3.a29efab2.chunk.js.map": "/cit-manual/static/js/3.a29efab2.chunk.js.map",
+    "index.html": "/cit-manual/index.html",
+    "precache-manifest.f2024c3d50a21b6496ccf0535ed612d0.js": "/cit-manual/precache-manifest.f2024c3d50a21b6496ccf0535ed612d0.js",
+    "service-worker.js": "/cit-manual/service-worker.js",
+    "static/css/main.e438b063.chunk.css.map": "/cit-manual/static/css/main.e438b063.chunk.css.map"
+  }
+}
