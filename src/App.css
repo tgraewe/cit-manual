@@ -36,7 +36,6 @@
     transform: rotate(360deg);
   }
 }
-/* Purdue branding colors */
 :root {
   --purdue-black: #000000;
   --purdue-gold: #cba135;
@@ -44,7 +43,6 @@
   --text-dark: #333;
 }
 
-/* Global reset and typography */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--purdue-gray);
@@ -54,7 +52,6 @@ body {
   line-height: 1.6;
 }
 
-/* Centering wrapper */
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -64,7 +61,6 @@ body {
   border-top: 8px solid var(--purdue-gold);
 }
 
-/* Headings */
 h1, h2 {
   color: var(--purdue-black);
   text-align: center;
@@ -81,12 +77,10 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-/* Lists */
 ul, ol {
   padding-left: 1.5rem;
 }
 
-/* Tips */
 p.font-semibold, .tip {
   background-color: #fffbe6;
   border-left: 5px solid var(--purdue-gold);
@@ -95,12 +89,10 @@ p.font-semibold, .tip {
   font-weight: 500;
 }
 
-/* Section spacing */
 section {
   margin-bottom: 2.5rem;
 }
 
-/* Utility classes */
 .text-center {
   text-align: center;
 }

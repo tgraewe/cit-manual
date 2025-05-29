@@ -9,27 +9,23 @@ export default function App() {
       <section>
         <h2>Introduction</h2>
         <p>
-          Technical lab reports are a fundamental requirement in Purdue’s Computer and Information Technology (CIT)
-          networking courses, such as CNIT 24000 and CNIT 24200. These reports serve two key purposes: they
-          contribute significantly to your course grade, and they help you develop professional documentation skills
-          essential for careers in IT, cybersecurity, and networking.
+          Lab Reports are a fundamental pillar in Purdue’s Computer and Information Technology (CIT) department, such as CNIT 34400, CNIT 24200, and so forth. These reports serve two key purposes they contribute a significant chunk to your course grade, and they help you develop the necessary professional documentation skills essential for careers in general IT, cybersecurity, and networking.
+
         </p>
         <p>
-          This manual provides a structured approach to writing CIT lab reports, ensuring clarity, professionalism,
-          and adherence to academic standards. Whether you are a first-time student unfamiliar with technical writing
-          or a returning student looking to improve your reports, this guide will help you understand each section’s
-          expectations and how to fulfill them effectively.
+          This manual provides a breakdown approach to writing CIT lab reports, for newcomers to the CIT program as well as students outside the program who must earn credit from CNIT courses. Whether you are a first-time student unfamiliar with technical writing or a returning student looking to brush up your lab reports, this guide will help you understand each section’s expectations and how to fulfill them effectively in a check list style and easily digestible format from the perspective of a student who graduated the program and graded 100+ lab reports.
         </p>
       </section>
 
       <section>
         <h2>Who Should Use This Manual?</h2>
         <ul>
-          <li>First-time CNIT students who need clear instructions on writing technical lab reports.</li>
-          <li>Returning students seeking to refine their reports for better grades.</li>
+          <li>First-time CIT students who need guidance as to what CNIT Labreports should look like going forward.</li>
+          <li>Returning students seeking to refine their reports for improving their grades.</li>
+          <li>Students outside the CIT department who need to learn the CNIT lab report format to pass a course.</li>
           <li>Peer reviewers or TAs who need a structured checklist for evaluating reports.</li>
         </ul>
-        <p>No prior technical writing experience is required—this manual breaks down each section step by step.</p>
+        <p>No prior technical writing experience is required this manual breakdown what you need to write a good lab report and document the results.</p>
       </section>
 
       <section>
@@ -45,65 +41,82 @@ export default function App() {
           <li>Conclusions and Recommendations</li>
           <li>Bibliography</li>
           <li>Appendices</li>
-          <li>Troubleshooting (Optional but recommended)</li>
+          <li>Problems and Troubleshooting</li>
         </ol>
-        <p>Each section has a specific purpose, ensuring the report is comprehensive and professional.</p>
+        <p>Each section has a specific function, guaranteeing the report to be comprehensive and hold a professional tone if documented correctly.</p>
       </section>
 
       <section>
         <h2>Section 1: Cover Page</h2>
-        <p>The cover page is the first impression of your report and must include:</p>
+        <p>The cover page is the first page of your report and must include:</p>
         <ul>
           <li>Title of the lab</li>
           <li>CNIT course number and section</li>
           <li>Names of all group members</li>
           <li>Date submitted</li>
-          <li>Instructor’s or TA’s name</li>
+          <li>Teaching Assistant's name</li>
+          <li>Clearly organized</li>
+          <li>Centered on page horizontally and vertically</li>
+          
         </ul>
-        <p className="tip">✅ Tip: Use a clean, professional layout. Avoid excessive graphics or colors—simplicity is key.</p>
+        <p className="tip">✅ Tip: Use a clean, professional layout. Avoiding any graphics or color is key.</p>
       </section>
 
       <section>
-        <h2>Section 2: Executive Summary</h2>
-        <p><strong>Purpose:</strong> Provide a concise, non-technical summary of the lab’s objectives and outcomes.</p>
+        <h2>Section 2: Table of Contents</h2>
+        <p>The Table of Contents (TOC) maps out what each page of the report includes and must have the following:</p>
+        <ul>
+        <li>Table of Contents present and complete with all sections</li>
+        <li>Table of Contents has correct page numbers and leading dots on from section name to page number</li>
+        </ul>
+        <p className="tip">✅ Tip: Just grab the Table of Contents form the CIT Lab Manual Template on Brightspace. Append it to your lab report and make sure it follow report format.</p>
+      </section>
+
+      <section>
+        <h2>Section 3: Executive Summary</h2>
+        <p><strong>Purpose:</strong> Provide a  non-technical summary of the lab’s objectives and results.</p>
         <p>
           Although this section appears early in the report, it should be written last since it summarizes the entire lab.
           It should briefly explain:
         </p>
         <ul>
-          <li>What the lab required (the objective)</li>
-          <li>What you did (the process)</li>
-          <li>What was achieved (the results)</li>
+          <li>Concise</li>
+          <li>Maximum length of one page</li>
+          <li>Written for non-technical audience</li>
+          <li>Clear overview of project</li>
+          <li>Clearly list major problems / works not complete</li>
         </ul>
-        <p className="tip">✅ Tip: Write for a non-technical audience—avoid jargon. Keep it to one paragraph if possible.</p>
+        <p className="tip">✅ Tip: Write for a non-technical audience. Keep it to less than one page, and one paragraph if possible.</p>
       </section>
 
       <section>
-        <h2>Section 3: Business Scenario</h2>
-        <p><strong>Purpose:</strong> Establish a real-world or fictional context for the lab.</p>
+        <h2>Section 4: Business Scenario</h2>
+        <p><strong>Purpose:</strong> Establish a real-world or fictional scenario for the lab.</p>
         <ul>
-          <li>A hypothetical company or department that would benefit from the lab’s outcomes.</li>
-          <li>A brief background explaining their needs.</li>
-          <li>Why this lab is relevant to their operations.</li>
+          <li>Business case is explained as such that the technology used is appropriate</li>
+          <li>Provides the relevant backstory / corporate scenario that lead to this project being necessary</li>
+          <li>Documented list of applications / software / operating systems necessary for the lab</li>
+          <li>Previous physical and logical diagrams from the previous lab in the course</li>
         </ul>
-        <p className="tip">✅ Tip: Think of this as justifying the lab’s importance in a business or organizational setting.</p>
+        <p className="tip">✅ Tip: Think of this as justifying the lab’s importance in a organization or corporate setting.</p>
       </section>
 
       <section>
-        <h2>Section 4: Procedures</h2>
+        <h2>Section 5: Procedures</h2>
         <p><strong>Purpose:</strong> Provide a step-by-step account of how the lab was completed.</p>
         <p>
           This section should be detailed enough that another student or professional could replicate your work. Use
           complete sentences and avoid vague language.
         </p>
         <ul>
-          <li>Document each major step taken, including network setups, configurations, or test cases used.</li>
-          <li>Write in third-person past tense (e.g., "The team configured the router...").</li>
-          <li>Include screenshots or code snippets when necessary to support clarity.</li>
-          <li>Reference any tools, platforms, or guides used (e.g., Cisco Packet Tracer, Wireshark).</li>
-          <li>Note problems encountered, solutions applied, and lessons learned.</li>
+          <li>Clearly stated, The overall presentation of the procedures section in terms of clarity of message and professionalism</li>
+          <li>Write in third-person past tense with verb-noun format (e.g., "Powered on Virtual Machine").</li>
+          <li>Adequate information provided to allow re-creation of work</li>
+          <li>Transition statements between numbered, titled and subtitled sections</li>
+          <li>Numbered procedures and around 5-15 numbered procedures</li>
+          <li>Consistent level of coverage throughout the project - nothing overly detailed or omitted</li>
         </ul>
-        <p className="tip">✅ Tip: Focus on replicability. The reader should be able to follow and repeat your steps.</p>
+        <p className="tip">✅ Tip: Focus on replicability. Readers should be able to follow and repeat your steps.</p>
       </section>
     </div>
   );
