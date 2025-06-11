@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cit-manual/static/css/main.5c3423e9.css",
+    "main.css": "/cit-manual/static/css/main.57045c82.css",
     "main.js": "/cit-manual/static/js/main.dd12b7f7.js",
     "static/js/453.6ed8469e.chunk.js": "/cit-manual/static/js/453.6ed8469e.chunk.js",
     "index.html": "/cit-manual/index.html",
-    "main.5c3423e9.css.map": "/cit-manual/static/css/main.5c3423e9.css.map",
+    "main.57045c82.css.map": "/cit-manual/static/css/main.57045c82.css.map",
     "main.dd12b7f7.js.map": "/cit-manual/static/js/main.dd12b7f7.js.map",
     "453.6ed8469e.chunk.js.map": "/cit-manual/static/js/453.6ed8469e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c3423e9.css",
+    "static/css/main.57045c82.css",
     "static/js/main.dd12b7f7.js"
   ]
 }
