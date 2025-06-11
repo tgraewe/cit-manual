@@ -127,7 +127,7 @@ section {
 .glossary-table td:first-child {
   width: 25%;
   font-weight: 500;
-  color: #2c3e50;
+  color: #000000;
 }
 
 .glossary-table tr:hover {
@@ -135,7 +135,7 @@ section {
 }
 
 .glossary-table strong {
-  color: #2c3e50;
+  color: #000000;
 }
 
 @media (max-width: 768px) {
