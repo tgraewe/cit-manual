@@ -9,7 +9,7 @@ export default function App() {
       <section>
         <h2>Introduction</h2>
         <p>
-          Lab Reports are a fundamental pillar in Purdue's Computer and Information Technology (CIT) department, particularly in technical courses like CNIT 24200, CNIT 34400, and other courses down the plan of study. These reports serve two key purposes: they contribute a significant chunk to your course grade, and they help you develop the necessary professional documentation skills essential for careers in general IT, cybersecurity, and network infrastructure. Being able to clearly report, what you've done and how you did it is an essential professional skill.
+          Lab Reports are a fundamental pillar in Purdue's Computer and Information Technology (CIT) department, particularly in technical courses like CNIT 24200, CNIT 34400, and other courses down the plan of study. These reports serve two key purposes, they contribute a significant chunk to your course grade, and they help you develop the necessary professional documentation skills essential for careers in general IT, cybersecurity, and network infrastructure. Being able to clearly report, what you've done and how you did it is an essential professional skill which is why we practice this in CIT.
         </p>
         <p>
           This manual is written and contributed by a student who completed the CIT program and graded over 100 lab reports as a teaching assistant for CNIT 34400. Its aim is to break down each section of a standard lab report in an open, accessible checklist-style format. The guide removes guesswork by outlining what a model lab report should look like and highlighting common mistakes made by both new and experienced students. Even if you have little to no technical writing experience, this manual is designed to walk you through the required steps with clarity from formatting the Procedures section to using a third person past tense writing tone.
@@ -51,14 +51,18 @@ export default function App() {
 
       <section>
         <h2>Section 1: Cover Page</h2>
-        <p>The cover page is the first page of your report and must include:</p>
+        <p><strong>Purpose:</strong> Provides the overview what what is documented in the report and displays information such as the authors and lab title.</p>
+        <p>
+        The cover page is the first page of your report and is the professional introduction to the report. It should simply include the following in the order displayed.
+        </p>
         <ul>
           <li>Title of the lab</li>
           <li>CNIT course number and section</li>
           <li>Names of all group members</li>
-          <li>Date submitted</li>
           <li>The Teaching Assistant's name</li>
-          <li>Centered on page horizontally and vertically</li>
+          <li>Date Submitted</li>
+          <li>Date Due</li>
+          <li>The cover page should be centered on the page horizontally and vertically</li>
         </ul>
         <p className="tip">✅ Tip: Use a simple, professional layout. Avoiding any graphics or color is key to this entire report.</p>
         <div className="figure-container">
@@ -73,7 +77,10 @@ export default function App() {
 
       <section>
         <h2>Section 2: Table of Contents</h2>
-        <p>The Table of Contents (TOC) maps out what each page of the report includes and must have the following:</p>
+        <p><strong>Purpose:</strong> Provide an outline of the report with precise page numbers and the contents of each page.</p>
+        <p>
+        Include all major sections and appendices and their page numbers. The easiest way to accomplish this is to use Word’s built in table of contents creator which will automatically build a table of contents with headings and subheadings as well as the page numbers.
+        </p>
         <ul>
           <li>The TOC should follow the CIT format with an initial header</li>
           <li>The TOC should have the correct page numbers and leading dots from section name to page number</li>
@@ -96,11 +103,11 @@ export default function App() {
           The first section of any technical project report should be an executive summary. The executive summary is a brief description of the project and the results and conclusions of the project completely void of any technology implementations. This section is aimed at people who have no computer background, it is simply a way to cover, at a glance, what the project accomplishes e.g. this project establishes a method of ensuring only authorized people are able to access the G: drive.
         </p>
         <ul>
-          <li>Concise</li>
-          <li>Maximum length of one page</li>
-          <li>Written for non-technical audience</li>
-          <li>Clear overview of project</li>
-          <li>List major problems / works not complete</li>
+          <li>This section should be concise and to the point</li>
+          <li>It should be no more than one page</li>
+          <li>The executive summary should be written for non-technical audience</li>
+          <li>The summary should have a clear project overview</li>
+          <li>Should be listing the major problems / works not completed</li>
         </ul>
         <p className="tip">✅ Tip: Write for a non-technical audience. Keep it to less than one page, and one paragraph if possible.</p>
         <div className="figure-container">
@@ -285,43 +292,47 @@ export default function App() {
           <tbody>
             <tr>
               <td><strong>CIT</strong></td>
-              <td>Computer and Information Technology: Purdue's applied IT department focused on infrastructure, networking, and security.</td>
+              <td>Computer and Information Technology: Purdue's applied IT department focused on infrastructure, networking, and cybersecurity. It is the department that offers the CNIT courses.</td>
             </tr>
             <tr>
               <td><strong>Lab Report</strong></td>
-              <td>A structured, formal document that outlines the technical work performed during a lab assignment.</td>
+              <td>A structured, formal document that outlines the technical work performed during a lab assignment. It is a way to document what you did and how you did it.</td>
             </tr>
             <tr>
               <td><strong>Executive Summary</strong></td>
-              <td>A brief, non-technical summary of the lab's objectives, outcomes, and any notable challenges.</td>
+              <td>A brief, non-technical summary of the lab's objectives / outcomes. This section is aimed at people who have no computer background, it is simply a way to cover, at a glance, what the project accomplishes e.g. this project establishes a method of ensuring only authorized people are able to access the G: drive.</td>
             </tr>
             <tr>
               <td><strong>Business Scenario</strong></td>
-              <td>A realistic or fictional company situation that justifies the lab's purpose in a workplace context.</td>
+              <td>A realistic or fictional company situation that justifies the lab's purpose in a workplace context. It is a way to set the context of the project and the purpose of the lab.</td>
             </tr>
             <tr>
               <td><strong>Procedures</strong></td>
-              <td>The step-by-step process performed to complete the lab, written in third-person past tense.</td>
+              <td>The step by step process performed to complete the lab, written in third-person past tense using verb-noun format. It is a way to document what you did and how you did it.</td>
             </tr>
             <tr>
               <td><strong>Results</strong></td>
-              <td>A section that documents what was achieved after performing the lab, often including diagrams or output summaries.</td>
+              <td>A section that documents what was achieved after performing the lab, often including diagrams or output summaries. It is a way to document the end result of the project.</td>
             </tr>
             <tr>
               <td><strong>Appendices</strong></td>
-              <td>Supplementary materials placed at the end of the report, such as full configs, IP tables, or diagrams.</td>
+              <td>Supplementary materials placed at the end of the report, such as device configuration files. It is a way to document various aspects of the project that are not covered in the main report.</td>
             </tr>
             <tr>
               <td><strong>Troubleshooting</strong></td>
-              <td>The process of identifying, diagnosing, and resolving technical problems during the lab.</td>
+              <td>The process of solving a problem and using critical thinking to diagnose and resolve technical problems in the lab.</td>
             </tr>
             <tr>
               <td><strong>Third-Person Past Tense</strong></td>
-              <td>Writing style that avoids "I" or "we" and uses phrasing like "The VM was created."</td>
+              <td>Writing style that avoids "I", "we", or "the group" and uses phrasing like "The VM was created.". It is a professional writing style that is used to document the actions of the project.</td>
+            </tr>
+            <tr>
+              <td><strong>Verb Noun Format</strong></td>
+              <td>A writing style that uses verbs and nouns to describe actions and objects used in the procedures section of the lab report.</td>
             </tr>
             <tr>
               <td><strong>APA Format</strong></td>
-              <td>A standardized citation style used to reference external sources; required for the Bibliography.</td>
+              <td>A standardized citation style used to reference external sources, required for the Bibliography section of the lab report. It is a way to document the sources of the information used to complete the project.</td>
             </tr>
           </tbody>
         </table>
